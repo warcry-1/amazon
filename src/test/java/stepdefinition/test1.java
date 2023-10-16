@@ -7,7 +7,7 @@ public class test1 {
 		
 		String hunger = "yes";
 		
-		if(hunger == "yes")
+		if(hunger == "yes"||hunger=="y")
 			System.out.println("Food needed");
 		else
 			System.out.println("Ignore");
