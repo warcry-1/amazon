@@ -15,7 +15,7 @@ WORKDIR /sample
 #ENTRYPOINT mvn -f /sample/pom.xml clean test
 #Below is working
 #ENTRYPOINT ["mvn","clean","test"]
-
+#This Below is also working
 CMD ["mvn","clean","test"]
 
 
