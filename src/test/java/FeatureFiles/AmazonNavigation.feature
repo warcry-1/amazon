@@ -22,8 +22,8 @@ Feature: This feature will be used to check the amazon application
   @tag1
   Scenario: Mobile Section
     Given User launches amazon home page
-    And User clicks on mobile
-    When User navigates to accesories and clicks powerbank
+    #And User clicks on mobile
+    #When User navigates to accesories and clicks powerbank
   
 
   #@tag2

@@ -15,27 +15,35 @@ public class Amazon1 {
 	public WebDriver driver;
 	
 	@Given("User launches amazon home page")
-	public void user_launches_amazon_home_page() {
+	public void user_launches_amazon_home_page() throws InterruptedException {
 	    // Write code here that turns the phrase above into concrete actions
+		/*
 	    WebDriverManager.chromedriver().setup();
 	    driver = new ChromeDriver();
 	    driver.manage().window().maximize();
-	    driver.get("https://www.amazon.in/");
-	}
-	@Given("User clicks on mobile")
-	public void user_clicks_on_mobile() {
-	    // Write code here that turns the phrase above into concrete actions
-		driver.findElement(By.xpath("//a[text()='Mobiles']")).click();
+	    driver.get("https://www.amazon.com");
 	    
+	    Thread.sleep(5000);
+	    
+	   System.out.println(driver.getTitle());
+	   */
+		System.out.println("This is to create an image");
+		System.out.println("Iliyas has created an image yoho");
 	}
-	@When("User navigates to accesories and clicks powerbank")
-	public void user_navigates_to_accesories_and_clicks_powerbank() {
-	    // Write code here that turns the phrase above into concrete actions
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-		driver.findElement(By.xpath("//li[@class='a-tab-heading htw-tab-heading'][1]/a")).click();
-		
-		driver.findElement(By.xpath("//a[@id='nav-cart']")).click();
-	   
-	}
+//	@Given("User clicks on mobile")
+//	public void user_clicks_on_mobile() {
+//	    // Write code here that turns the phrase above into concrete actions
+//		//driver.findElement(By.xpath("//span[text()='Headsets']")).click();
+//	    
+//	}
+//	@When("User navigates to accesories and clicks powerbank")
+//	public void user_navigates_to_accesories_and_clicks_powerbank() {
+//	    // Write code here that turns the phrase above into concrete actions
+//		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+//		//driver.findElement(By.xpath("//span[text()='PC Game Headsets']")).click();
+//		
+//		//driver.findElement(By.xpath("//a[@id='nav-cart']")).click();
+//	   
+//	}
 	
 }

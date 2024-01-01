@@ -12,6 +12,6 @@ import io.cucumber.junit.CucumberOptions;
 		glue ="stepdefinition"
 		
 )
-public class AmazonRunner {
+public class TestAmazonRunner {
 
 }
